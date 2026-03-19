@@ -83,7 +83,8 @@ const HeroSection = () => {
               <Mail size={16} /> Contact Me
             </a>
             <a
-              href="#"
+              href="/BENDAMURI_SRI_SURYA_KARTHEEK_CV.pdf"
+              download
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary-foreground/20 text-primary-foreground/80 font-medium hover:bg-primary-foreground/5 hover-lift transition-all"
             >
               <FileDown size={16} /> Download Resume

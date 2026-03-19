@@ -4,9 +4,9 @@ import { Github, Linkedin, Mail, Code2, Send } from "lucide-react";
 
 const socials = [
   { icon: Github, label: "GitHub", href: "https://github.com/KartheekGitty" },
-  { icon: Linkedin, label: "LinkedIn", href: "#" },
-  { icon: Mail, label: "Email", href: "mailto:" },
-  { icon: Code2, label: "LeetCode", href: "#" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/kartheek-bendamuri" },
+  { icon: Mail, label: "Email", href: "mailto:kartheekbendamuri79121@gmail.com" },
+  { icon: Code2, label: "LeetCode", href: "https://leetcode.com/" },
 ];
 
 const ContactSection = () => {
