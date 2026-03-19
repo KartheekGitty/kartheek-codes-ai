@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { Trophy, Code, Award } from "lucide-react";
 
 const achievements = [
-  { icon: Trophy, text: "Top 10 position in a hackathon" },
-  { icon: Code, text: "Solved 100+ problems on LeetCode" },
+  { icon: Trophy, text: "Ranked Top 10 out of 50+ teams in a college hackathon" },
+  { icon: Code, text: "Solved 150+ problems on LeetCode & HackerRank" },
   { icon: Award, text: "Participated in college coding contests" },
 ];
 

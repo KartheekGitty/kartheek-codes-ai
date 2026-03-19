@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 
 const skillCategories = [
-  { title: "Programming Languages", skills: ["C++", "Java", "PHP", "JavaScript"] },
-  { title: "Frontend", skills: ["HTML", "Tailwind CSS", "ReactJS"] },
-  { title: "Backend", skills: ["NodeJS", "PHP"] },
-  { title: "Database", skills: ["MySQL"] },
-  { title: "Tools & Platforms", skills: ["GitHub"] },
+  { title: "Programming Languages", skills: ["C", "C++", "Java", "JavaScript", "Python", "PHP"] },
+  { title: "Frontend", skills: ["HTML", "CSS", "React.js", "Tailwind CSS"] },
+  { title: "Backend", skills: ["Node.js", "PHP"] },
+  { title: "Database", skills: ["MySQL", "MongoDB"] },
+  { title: "Tools & Platforms", skills: ["Git", "GitHub"] },
+  { title: "Soft Skills", skills: ["Communication", "Conflict Resolution", "Active Listening", "Adaptability"] },
 ];
 
 const SkillsSection = () => (

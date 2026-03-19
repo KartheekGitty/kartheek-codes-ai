@@ -4,20 +4,20 @@ import { GraduationCap } from "lucide-react";
 const education = [
   {
     degree: "B.Tech in Computer Science & Engineering",
-    institution: "Lovely Professional University",
-    year: "2023 – 2027 (Expected)",
-    score: "CGPA: 6.4",
+    institution: "Lovely Professional University, Phagwara, Punjab",
+    year: "Aug 2023 – Present",
+    score: "CGPA: 6.38",
   },
   {
-    degree: "Intermediate (12th)",
-    institution: "Tirumala Educational Institute",
-    year: "2021 – 2023",
+    degree: "Intermediate",
+    institution: "Tirumala Junior College, Rajahmundry, Andhra Pradesh",
+    year: "Jun 2021 – Mar 2023",
     score: "Score: 94.1%",
   },
   {
-    degree: "10th Standard",
-    institution: "Tirumala Educational Institute",
-    year: "2020 – 2021",
+    degree: "Matriculation",
+    institution: "Tirumala Educational Institutions, Rajahmundry, Andhra Pradesh",
+    year: "Jun 2020 – Mar 2021",
     score: "Score: 100%",
   },
 ];
