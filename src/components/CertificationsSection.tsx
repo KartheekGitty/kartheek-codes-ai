@@ -27,7 +27,7 @@ const CertificationsSection = () => (
               transition={{ delay: i * 0.08, duration: 0.3 }}
               className="glass-card p-5 flex items-start gap-3 hover-lift"
             >
-              <BadgeCheck size={20} className="text-primary shrink-0 mt-0.5" />
+              <BadgeCheck size={20} className="text-primary shrink-0 mt-0.5 icon-hover" />
               <div>
                 <h3 className="font-medium text-sm text-foreground">{cert.title}</h3>
                 <p className="text-xs text-muted-foreground mt-1">{cert.issuer}</p>

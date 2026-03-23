@@ -24,7 +24,7 @@ const AchievementsSection = () => (
               transition={{ delay: i * 0.1, duration: 0.4 }}
               className="glass-card p-6 text-center hover-lift"
             >
-              <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-accent/10 text-accent flex items-center justify-center">
+              <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-accent/10 text-accent flex items-center justify-center icon-hover">
                 <item.icon size={26} />
               </div>
               <p className="font-medium text-foreground">{item.text}</p>
