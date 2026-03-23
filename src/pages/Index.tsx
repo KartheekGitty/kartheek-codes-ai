@@ -9,9 +9,11 @@ import AchievementsSection from "@/components/AchievementsSection";
 import CertificationsSection from "@/components/CertificationsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import InteractiveBackground from "@/components/InteractiveBackground";
 
 const Index = () => (
   <>
+    <InteractiveBackground />
     <Navbar />
     <HeroSection />
     <AboutSection />
