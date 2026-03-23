@@ -78,7 +78,7 @@ const HeroSection = () => {
             </a>
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary-foreground/20 text-primary-foreground/80 font-medium hover:bg-primary-foreground/5 hover-lift transition-all"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary-foreground/20 text-primary-foreground/80 font-medium hover:bg-primary-foreground/5 btn-hover"
             >
               <Mail size={16} /> Contact Me
             </a>
