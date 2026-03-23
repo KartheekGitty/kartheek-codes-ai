@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 const InteractiveBackground = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const mouseRef = useRef({ x: 0, y: 0 });
-  const particlesRef = useRef<Particle[]>([]);
+  const particlesRef = useRef<any[]>([]);
   const animFrameRef = useRef<number>(0);
 
   useEffect(() => {
