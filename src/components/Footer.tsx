@@ -8,7 +8,7 @@ const Footer = () => (
       </p>
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className="p-2 rounded-full border border-border text-muted-foreground hover:text-primary hover:border-primary transition-colors"
+        className="p-2 rounded-full border border-border text-muted-foreground hover:text-primary hover:border-primary btn-hover"
         aria-label="Scroll to top"
       >
         <ArrowUp size={18} />

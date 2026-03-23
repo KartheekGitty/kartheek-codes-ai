@@ -72,9 +72,9 @@ const ContactSection = () => {
                     href={s.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="glass-card p-4 flex items-center gap-3 hover-lift group"
+                    className="glass-card p-4 flex items-center gap-3 hover-lift group cursor-pointer"
                   >
-                    <s.icon size={20} className="text-primary" />
+                    <s.icon size={20} className="text-primary icon-hover" />
                     <span className="text-sm font-medium text-foreground group-hover:text-primary transition-colors">{s.label}</span>
                   </a>
                 ))}

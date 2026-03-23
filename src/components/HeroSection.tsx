@@ -72,20 +72,20 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href="#projects"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover-lift glow-primary transition-all"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium btn-hover glow-primary"
             >
               View Projects <ArrowDown size={16} />
             </a>
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary-foreground/20 text-primary-foreground/80 font-medium hover:bg-primary-foreground/5 hover-lift transition-all"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary-foreground/20 text-primary-foreground/80 font-medium hover:bg-primary-foreground/5 btn-hover"
             >
               <Mail size={16} /> Contact Me
             </a>
             <a
               href="/BENDAMURI_SRI_SURYA_KARTHEEK_CV.pdf"
               download
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary-foreground/20 text-primary-foreground/80 font-medium hover:bg-primary-foreground/5 hover-lift transition-all"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-primary-foreground/20 text-primary-foreground/80 font-medium hover:bg-primary-foreground/5 btn-hover"
             >
               <FileDown size={16} /> Download Resume
             </a>

@@ -136,6 +136,18 @@
 
 @layer utilities {
   .hover-lift {
-    @apply transition-transform duration-300 hover:-translate-y-1;
+    @apply transition-all duration-300 hover:-translate-y-2 hover:scale-105 hover:shadow-lg;
+  }
+
+  .icon-hover {
+    @apply transition-all duration-300 ease-out hover:scale-125 hover:-translate-y-1 hover:drop-shadow-lg cursor-pointer;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 ease-out hover:-translate-y-3 hover:scale-[1.02] hover:shadow-xl;
+  }
+
+  .btn-hover {
+    @apply transition-all duration-200 ease-out hover:scale-110 hover:-translate-y-0.5 active:scale-95;
   }
 }
