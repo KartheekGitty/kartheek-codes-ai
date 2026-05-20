@@ -8,6 +8,8 @@ const certifications = [
   { title: "Master Generative AI & Generative AI Tools", issuer: "Udemy" },
   { title: "Built Generative AI Apps & Solutions with No-Code Tools", issuer: "Udemy" },
   { title: "Bits and Bytes of Computer Networking", issuer: "Google" },
+  { title: "Android App Development for Beginners", issuer: "Simplilearn" },
+  { title: "Full Stack Developer Course", issuer: "Simplilearn" },
 ];
 
 const CertificationsSection = () => (
