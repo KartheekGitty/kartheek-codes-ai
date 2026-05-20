@@ -18,6 +18,14 @@ const projects = [
     tech: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/KartheekGitty/Gmail-Productivity-Analyzer",
   },
+  {
+    title: "Port Mate: Professional Portfolio Builder for Developers",
+    date: "May 2026",
+    description:
+      "Engineered a full-stack platform enabling professionals to present achievements, technical expertise, and personal details through adaptable layouts. Crafted an interactive React interface with modular sections for showcasing work samples, integrated seamlessly with a Laravel-powered backend. Designed and deployed RESTful services to handle portfolio data, ensuring efficient retrieval and smooth scalability. Elevated usability by adding responsive views and external project linking.",
+    tech: ["React.js", "Laravel", "PHP", "MySQL", "REST API", "Tailwind CSS"],
+    github: "https://github.com/KartheekGitty/PortMate",
+  },
 ];
 
 const ProjectsSection = () => (
