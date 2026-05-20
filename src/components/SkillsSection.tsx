@@ -4,7 +4,7 @@ const skillCategories = [
   { title: "Programming Languages", skills: ["C", "C++", "Java", "JavaScript", "Python", "PHP"] },
   { title: "Frontend", skills: ["HTML", "CSS", "React.js", "Tailwind CSS"] },
   { title: "Backend", skills: ["Node.js", "PHP"] },
-  { title: "Database", skills: ["MySQL", "MongoDB"] },
+  { title: "Database", skills: ["MySQL", "MongoDB", "Postman"] },
   { title: "Tools & Platforms", skills: ["Git", "GitHub"] },
   { title: "Soft Skills", skills: ["Communication", "Conflict Resolution", "Active Listening", "Adaptability"] },
 ];
