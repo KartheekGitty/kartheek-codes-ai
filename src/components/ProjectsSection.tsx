@@ -25,6 +25,7 @@ const projects = [
       "Engineered a full-stack platform enabling professionals to present achievements, technical expertise, and personal details through adaptable layouts. Crafted an interactive React interface with modular sections for showcasing work samples, integrated seamlessly with a Laravel-powered backend. Designed and deployed RESTful services to handle portfolio data, ensuring efficient retrieval and smooth scalability. Elevated usability by adding responsive views and external project linking.",
     tech: ["React.js", "Laravel", "PHP", "MySQL", "REST API", "Tailwind CSS"],
     github: "https://github.com/KartheekGitty/PortMate",
+    live: "https://portmate.vercel.app",
   },
 ];
 
@@ -60,14 +61,26 @@ const ProjectsSection = () => (
                     </span>
                   ))}
                 </div>
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline"
-                >
-                  <Github size={16} /> View on GitHub <ExternalLink size={12} />
-                </a>
+                <div className="flex flex-wrap items-center gap-4">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline"
+                  >
+                    <Github size={16} /> View on GitHub <ExternalLink size={12} />
+                  </a>
+                  {project.live && (
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-sm text-accent font-medium hover:underline"
+                    >
+                      Live Demo <ExternalLink size={12} />
+                    </a>
+                  )}
+                </div>
               </div>
             </motion.div>
           ))}
