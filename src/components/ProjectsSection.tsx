@@ -61,14 +61,26 @@ const ProjectsSection = () => (
                     </span>
                   ))}
                 </div>
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline"
-                >
-                  <Github size={16} /> View on GitHub <ExternalLink size={12} />
-                </a>
+                <div className="flex flex-wrap items-center gap-4">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline"
+                  >
+                    <Github size={16} /> View on GitHub <ExternalLink size={12} />
+                  </a>
+                  {project.live && (
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-sm text-accent font-medium hover:underline"
+                    >
+                      Live Demo <ExternalLink size={12} />
+                    </a>
+                  )}
+                </div>
               </div>
             </motion.div>
           ))}
